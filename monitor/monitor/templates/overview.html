@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>zenoss</h2>
+          <p>服务器监控 </p>
+          <p><a class="btn btn-default" href="http://10.0.1.111:8080/zport/dmd/Events/evconsole" role="button">Go &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>zabbix</h2>
+          <p>公用云监控</p>
+          <p><a class="btn btn-default" href="http://42.62.58.141/zabbix" role="button">Go &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>cacti</h2>
+          <p>网络流量监控</p>
+          <p><a class="btn btn-default" href="http://10.0.1.111/cacti/plugins/weathermap/weathermap-cacti-plugin.php" role="button">Go &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>smokeping</h2>
+          <p>网络链路监控</p>
+          <p><a class="btn btn-default" href="http://10.0.1.127/weathermap/smokeping.html" role="button">Go &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>lvs</h2>
+          <p>api负载均衡</p>
+          <p><a class="btn btn-default" href="http://10.0.1.109/lvs/" role="button">Go &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>lvs</h2>
+          <p>db负载均衡</p>
+          <p><a class="btn btn-default" href="http://10.0.1.121/lvs/" role="button">Go &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+  
+{% endblock %}
+
